@@ -1,0 +1,15 @@
+Package: r-sast-demo
+Type: Package
+Title: A Demo Application for Static Application Security Testing
+Version: 0.1.0
+Author: Your Name
+Maintainer: Your Name <your.email@example.com>
+Description: This package provides a demo application to test Static Application Security Testing (SAST) tools by identifying vulnerabilities in R code.
+License: MIT
+Imports:
+    shiny,
+    dplyr
+Suggests:
+    testthat
+Encoding: UTF-8
+LazyData: true
