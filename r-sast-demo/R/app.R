@@ -1,5 +1,7 @@
 library(shiny)
-
+api_key <- "sk_test_1234567890abcdef"
+db_user <- "admin"
+db_pass <- "password123"
 # Load sample data
 data <- read.csv("/Users/defensepoint/Documents/R_app/r-sast-demo/data/sample-data.csv")
 
