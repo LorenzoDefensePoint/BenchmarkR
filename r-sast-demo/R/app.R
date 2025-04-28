@@ -1,22 +1,22 @@
 library(shiny)
 
 # Simulate sensitive information (unused variables)
-# api_key <- "sk_test_1234567890abcdef"
-# db_user <- "admin"
-# db_pass <- "password12345"
+api_key <- "sk_test_1234567890abcdef"
+db_user <- "admin"
+db_pass <- "password12345"
 
 
 # Example of SQL Injection Vulnerability (unused function)
-# vulnerable_sql_query <- function(user_input) {
-#     query <- paste0("SELECT * FROM users WHERE username = '", user_input, "';")
-#     print(query) 
-# }
+vulnerable_sql_query <- function(user_input) {
+    query <- paste0("SELECT * FROM users WHERE username = '", user_input, "';")
+    print(query) 
+}
 
 # Example of Command Injection Vulnerability (unused function)
-# vulnerable_command_execution <- function(user_input) {
-#     command <- paste("ls", user_input)
-#     system(command)  
-# }
+vulnerable_command_execution <- function(user_input) {
+    command <- paste("ls", user_input)
+    system(command)  
+}
 
 # Load sample data
 data <- read.csv("/Users/defensepoint/Documents/R_app/r-sast-demo/data/sample-data.csv")
