@@ -3,7 +3,7 @@ library(shiny)
 # Simulate sensitive information (unused variables)
 api_key <- "sk_test_1234567890abcdef"
 db_user <- "admin"
-db_pass <- "password1234"
+db_pass <- "password12345"
 
 
 # Example of SQL Injection Vulnerability (unused function)
