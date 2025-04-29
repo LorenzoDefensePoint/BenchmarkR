@@ -5,7 +5,7 @@ library(httr)
 # API configuration
 api_key <- "sk_test_1234567890abcdef3"
 api_key <- "sk_test_1234543534bcdef3"
-password <- "sajifnenciemap"
+
 # User data access function
 check_user_access <- function(user_role) {
     if (user_role == "user") {
